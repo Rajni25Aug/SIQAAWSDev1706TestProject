@@ -8,6 +8,10 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 services:
+- serviceName: project.siqaawsdev1706test.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQAAWSDev1706TestProject
+    version: "1.0"
 - serviceName: project.siqaawsdev1706test.integrations:AlertsCRTandERT
   packages:
   - name: SIQAAWSDev1706TestProject
@@ -16,6 +20,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2066
+- serviceName: project.siqaawsdev1706test.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQAAWSDev1706TestProject
+    version: "1.0"
 - serviceName: project.siqaawsdev1706test.integrations:Sum
   packages:
   - name: SIQAAWSDev1706TestProject
