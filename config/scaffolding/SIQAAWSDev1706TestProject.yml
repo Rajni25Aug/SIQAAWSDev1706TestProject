@@ -16,6 +16,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2066
+- serviceName: project.siqaawsdev1706test.integrations:Sum
+  packages:
+  - name: SIQAAWSDev1706TestProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2066
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2066
 - serviceName: project.siqaawsdev1706test.integrations:deepclonetest
   packages:
   - name: SIQAAWSDev1706TestProject
